@@ -1,5 +1,6 @@
 
 import './App.css'
+import Countries from './components/countries/Countries'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <h1>React Awesome World Tour!!! </h1>
+      <Countries></Countries>
     </>
   )
 }
