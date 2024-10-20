@@ -1,0 +1,44 @@
+.country-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.mark-country-container {
+    display: grid;
+    grid-template-columns: 150px auto;
+
+}
+
+.marked-country {
+    text-align: start;
+
+}
+
+.fv-flags img {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+@media (max-width: 425px) {
+    .country-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .country-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .country-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

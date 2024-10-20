@@ -1,0 +1,27 @@
+.country-card {
+    height: 500px;
+    border: 1px solid green;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.country-card img {
+    height: 40%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.details {
+    padding: 0;
+    margin: 0;
+    text-align: start;
+}
+.visited{
+    margin: 5px;
+}
